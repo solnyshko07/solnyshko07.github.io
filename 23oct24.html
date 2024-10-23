@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+</head> 
+<body> 
+    <div id="diagram"></div> 
+Сайт студентки Андержанова Александра Александровна гр.3319/2 
+<script> 
+let elem = document.createElement('div'); 
+elem.style.width='50px' 
+elem.style.height='200px' 
+elem.style.backgroundColor = "black"; 
+document.body.append(elem) 
+let names = ['Москва','Рим','Париж']; 
+let population = [80000000,500000,700000]; 
+let diagram = document.getElementById('diagram') 
+let elem2 = document.createElement('div') 
+elem2.innerText = names[1]; 
+diagram.append(elem2); 
+</script> 
+</body> 
+</html>
